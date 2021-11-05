@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+</head>
+<body>
+  
+    <button onclick="cumle()">Ok</button>
+    <div id="netice"></div>
+    <body>
+        <script>
+          document.body.style.backgroundImage=`url('img/1.jpg') center/cover`
+            const netice=document.getElementById("netice")
+        function cumle(){
+            const  cumle="Bu gun hava isti olacaq"
+            arr=cumle.split(" ").sort()
+          netice.innerHTML= arr[arr.length-1]
+          
+        }
+         
+          
+        </script>
+</body>
+</html>

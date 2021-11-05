@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<input type="text" name="" id="a">
+<button onclick="reqem()">Ok</button>
+<div id="netice"></div>
+<body>
+    <script>
+        const a=document.getElementById("a")
+        const netice=document.getElementById("netice")
+        function reqem(){
+            let x=0
+                for(let i=0;i<a.value.length;i++){
+            x+=+a.value[i]
+                }
+            console.log(x)
+            if (a.value.length = 10 && x == 45 )  netice.innerHTML= true
+                    else  netice.innerHTML=  false 
+        }
+    </script>
+
+</body>
+</html>
