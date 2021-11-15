@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="son3">
+    <button onclick="func()">OK</button>
+    <script>
+        const son3=document.getElementById("son3")
+                    function func(){
+                     let f=son3.value.split(" ")
+                     let x=0
+                     for(let i=0;i<f.length;i++){
+                      if(f[i].slice(-3)=="lar"){
+                         x+=1
+                        }
+                            }
+                            console.log(x)
+                    }
+       func()
+    </script>
+</body>
+</html>

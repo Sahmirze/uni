@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="herf">
+    <button onclick="firstend()">Ok</button>
+   
+    <body>
+        <script>
+            const herf=document.getElementById("herf")
+            function firstend(){
+                let as=herf.value.split(" ")
+                let das=""
+                for(let i=0;i<as.length;i++){
+                if(as[i][0]=="a" && as[i][as[i].length-1]=="m" ){
+                das+= " " +as[i]
+                }
+
+                }
+                console.log(das)
+            }
+            firstend()
+        </script>
+</body>
+</html>

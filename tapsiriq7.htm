@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="a">
+    <button onclick="cumle()">Ok</button>
+    <body>
+        <script>
+            const a=document.getElementById("a")
+
+            function cumle(){
+               let z=a.value.split(" ")
+              console.log(z)
+                let count=0
+                for(let j=0;j<z.length;j++){
+                    if (z[j].length == 4)  count+=1
+                }
+                console.log(count) 
+            }
+            cumle()
+            
+        </script>
+</body>
+</html>
